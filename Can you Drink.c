@@ -2,7 +2,7 @@
 
 int main() {
     int age, year;
-    printf("what is your year \n");
+    printf("what is your birth year \n");
     scanf("%d",&year);
     age=2021-year;
     printf("Exact age %d \n",age);
