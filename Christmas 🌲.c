@@ -8,7 +8,6 @@ int main() {
     printf("\nMerry Christmas Everyone  \n");
     triangle(n);
     triangle(n);
-
     pole(n);
     return 0;
 }
@@ -24,19 +23,14 @@ void triangle(int n) {
         }
         printf("\n");
     }
-
 }
-
 void pole(int n) {
     int i,j;
-
     for(i=1; i<=n; i++) {
         for(j=1; j<=n-2; j++) {
             printf(" ");
         }
         printf("  @@@@@\n");
-
-
     }
     printf("Create By Badshah😎");
 }
